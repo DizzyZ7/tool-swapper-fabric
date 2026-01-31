@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "tool_swapper",
+  "version": "1.0.0",
+  "name": "Tool Swapper",
+  "description": "Smart tool switching for efficient mining by DizzyZ7.",
+  "authors": ["DizzyZ7"],
+  "contact": {
+    "sources": "https://github.com/DizzyZ7/tool-swapper-fabric"
+  },
+  "license": "MIT",
+  "entrypoints": {
+    "main": ["com.dizzyz7.toolswapper.ToolSwapperMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "fabric-api": "*"
+  }
+}
